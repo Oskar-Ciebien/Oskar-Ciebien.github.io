@@ -7,14 +7,60 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Oskar's Portfolio Website</title>
+    <title>Oskar Ciebien - Software Engineer</title>
 
     <link rel="stylesheet" href="styles.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome on my Portfolio Website</h1>
-    <p>Work in progress...</p>
+    <button onclick="displayMode()">
+        <i class="icon-sun icon-2x icon-dark" title="Toggle Dark Mode"></i>
+    </button>
+
+    <div>
+        <ul class="websites">
+            <li>
+                <a target="_blank" href="https://github.com/Oskar-Ciebien">
+                    <i class="icon-github-sign icon-3x pull-right" title="GitHub Profile"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/oskar-ciebien/">
+                    <i class="icon-linkedin-sign icon-3x pull-right" title="LinkedIn Profile"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h1>Oskar Ciebien</h1>
+        <h2>Graduate Software Engineer</h2>
+    </div>
+
+    <div class="about-me">
+        <h2>About Me</h2>
+    </div>
+
+    <hr>
+
+    <div class="experience">
+        <h2>My Experience</h2>
+        <div>
+            <p>Company</p>
+            <p>Title</p>
+            <p>Description</p>
+        </div>
+    </div>
+
+    <hr>
 </body>
+
+<script>
+    function displayMode() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+</script>
 
 </html>
