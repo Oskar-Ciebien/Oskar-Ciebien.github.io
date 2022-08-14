@@ -1,1 +1,3 @@
-# This is my portfolio website source code.
+This will be my Portfolio Website.
+
+# Currently WORK IN PROGRESS
