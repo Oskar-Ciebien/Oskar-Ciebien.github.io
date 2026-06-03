@@ -1,8 +1,8 @@
 # 🌐 Oskar Ciebien
 
-This is my personal online CV, built using **HTML** and **CSS**, and hosted with **GitHub Pages**. Curious to know more about me? Visit the link below:
+This is my personal online CV, built using **HTML**, **CSS** and JavaScript, and hosted with **GitHub Pages**. Curious to know more about me? Visit the link below:
 
-> 🔗 [Live Preview](https://Oskar-Ciebien.github.io)
+> 🔗 [Website Link](https://Oskar-Ciebien.github.io)
 
 
 ## 📬 Contact
