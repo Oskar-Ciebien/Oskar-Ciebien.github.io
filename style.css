@@ -16,6 +16,11 @@ body.dark {
   --accent: #60a5fa;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -162,6 +167,7 @@ body.dark .linkedin-icon {
 /* SECTIONS */
 .section {
   margin-top: 48px;
+  scroll-margin-top: 40px;
 }
 
 .section-title {
